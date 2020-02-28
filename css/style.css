@@ -1,0 +1,202 @@
+body {
+    background-color: #0442BE;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+    background-color: #0442BE;
+    width: 960px;
+    margin: 0px auto;
+}
+header {
+    height: 300px;
+    background: url(/images/hinhnen.png) no-repeat;
+}
+#nav {
+    clear: both;
+    width: 960px;
+    height: 48px;
+    background-color: #0442BE;
+    margin: 0px auto;
+}
+.nav {
+    margin: 0px auto;
+}
+#nav .nav li {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    list-style:none;
+}
+#nav .nav li a {
+   margin: 10px 30px 10px 30px;
+   line-height: 20px;
+   display: inline-block;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+   color:white;
+}
+#nav .nav .sub-menu {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 100%;
+   width: 230px;
+   background-color: #0442BE;
+   padding: 5px 20px;
+}
+#nav .nav li:hover {
+    background-color: orange;
+}
+#nav .nav li a:hover {
+    color: white;
+}
+#nav .nav li:hover .sub-menu {
+    display: block;
+}
+#nav .nav li .sub-menu {
+    top: 40px;
+    left: 0px;
+}
+#section {
+    background-color: turquoise;
+}
+div#left {
+    width: 600px;
+    background-color: white;
+    float: left;
+}
+div#hello {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px gray;
+}
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+marquee {
+    color: #e92775;
+    font-weight: bold;
+}
+div#right {
+    width: 360px;
+    height: 1078px;
+    float: left;
+    background-color: white;
+}
+div#slider {
+    margin: 11px 4px 8px 4px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 4px;
+}
+div#img-slider {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+div#img-slider a {
+    text-decoration: none;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+div#img-slider2 {
+    float: left;
+    width: 284px;
+    height: 220px;
+}
+div.info {
+    width: 100%;
+}
+h3.title {
+    background: url(../images/book.gif) no-repeat left bottom;
+    padding-bottom: 4px;
+    margin: -5px 5px;
+    padding-top: 5px;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border-bottom: 1px dotted
+}
+p#info-news {
+    background-color: rgba(7, 23, 163, 0.342);
+    margin: 0px;
+    color: #EFEFEF;
+    text-decoration: none;
+    font-size: 16px;
+    top: -41px;
+    border-radius: 4px;
+    position: relative;
+}
+div.newss {
+    margin: 10px;
+    height: 335px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+div.box {
+    clear: both;
+}
+div#tieude {
+    margin: 0px 42px;
+}
+div#form-vadition {
+    margin: 8px 8px 153px 8px
+}
+input#button-form {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    margin-left: 350px;
+    border-radius: 10px;
+    width: 100px;
+}
+input#reset-form {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+}
+.row , #noidung {
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(145, 122, 88, 0.301);
+    margin: 10px 35px;
+}
+label.label {
+    margin: 0px 35px;
+}
+div.news img {
+    float: left;
+    margin: 5px;
+}
+div.news a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+div#footer {
+    clear: both;
+}
+div.column h3 {
+    float: left;
+    font-size: 16px !important;
+    font-weight: normal;
+    margin: 0px;
+    background: url(/images/icon1.png) no-repeat scroll left top;
+    padding-left: 25px;
+}
+div.column h3 a {
+    text-decoration: none;
+    outline: none;
+}
+div#imgimg {
+    margin: 5px;
+}
